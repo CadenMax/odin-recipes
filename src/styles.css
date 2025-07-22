@@ -1,0 +1,42 @@
+
+
+body {
+    background-color: rgb(184, 114, 60);
+}
+
+h1 {
+    color: bisque;
+}
+
+.navbar {
+    background-color: rgb(255, 171, 2);
+    padding: 1px;
+}
+
+.navitem{
+    list-style: none;
+    display: inline;
+    margin-left: 5px;
+
+}
+
+.navitem a,
+#backHome {
+    text-decoration: none;
+    color: black;
+}
+
+.navitem:hover{
+    background-color: rgb(168, 99, 99);
+}
+
+#backHome {
+    font-size: larger;
+}
+
+.container {
+    background-color: antiquewhite;
+    padding: 10px;
+    width:max-content;
+    border-radius: 20px;
+}
